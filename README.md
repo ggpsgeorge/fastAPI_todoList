@@ -17,7 +17,7 @@ Microservices Python FastAPI - https://www.geeksforgeeks.org/microservice-in-pyt
 Desafio Tecnico com Deploy - https://github.com/instruct-br/teste-python-jr-remoto-2021-06
 
 DB - https://fastapi.tiangolo.com/tutorial/sql-databases/
-SQL Model(No lugar do sqlalchemy) - https://sqlmodel.tiangolo.com/
+SQL Model(Instead of Sqlalchemy) - https://sqlmodel.tiangolo.com/
 SQL Relations - https://docs.sqlalchemy.org/en/20/orm/basic_relationships.html#one-to-many
 
 Perfect Project Setup - https://medium.com/@lawsontaylor/the-ultimate-fastapi-project-setup-fastapi-async-postgres-sqlmodel-pytest-and-docker-ed0c6afea11b
