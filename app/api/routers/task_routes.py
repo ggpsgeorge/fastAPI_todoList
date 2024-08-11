@@ -20,3 +20,8 @@ def get_db():
 async def create_task(task: task_schema.TaskCreate, db: Session = Depends(get_db)):
     db_task = task_crud.create_task(db, task)
     return db_task    
+
+@router.get("/tasks/{task_id}")
+async def read_task(task_id: int, db: Session = Depends(get_db)):
+    db_task = task_crud.read_task(db, task_id)
+    return db_task
