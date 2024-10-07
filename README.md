@@ -1,5 +1,5 @@
 ## Overview
-    Project of a simple todolist backend made for learning FastAPI and tests clients. Docker is used to have a postgresql instance.
+Project of a simple todolist backend made for learning FastAPI and tests clients. Docker is used to have a postgresql instance.
 ## Execution
 
 ```sh
