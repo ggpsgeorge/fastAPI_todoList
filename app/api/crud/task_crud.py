@@ -13,3 +13,13 @@ def create_task(db: Session, task: task_schema.TaskCreate):
 def read_task(db: Session, task_id: int):
     db_task = db.query(task_model.Task).filter(task_model.Task.id == task_id).first()
     return db_task
+
+# def update_task(db: Session, new_task: task_schema, task_id: int):
+#     db_task = db.query(task_model.Task).filter(task_model.Task.id == task_id).first()
+#     if db_task:
+#         db_task = new_task
+#         db.add(db_task)
+#         db.commit()
+#         db.refresh(db_task)
+        
+     

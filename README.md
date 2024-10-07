@@ -1,5 +1,5 @@
 ## Overview
-
+    Project of a simple todolist backend made for learning FastAPI and tests clients. Docker is used to have a postgresql instance.
 ## Execution
 
 ```sh
@@ -13,8 +13,6 @@ FastAPI Best Practices - https://github.com/zhanymkanov/fastapi-best-practices
 Pydantic - https://docs.pydantic.dev/latest/
 uvicorn - https://www.uvicorn.org/
 Microservices Python FastAPI - https://www.geeksforgeeks.org/microservice-in-python-using-fastapi/
-
-Desafio Tecnico com Deploy - https://github.com/instruct-br/teste-python-jr-remoto-2021-06
 
 DB - https://fastapi.tiangolo.com/tutorial/sql-databases/
 SQL Model(Instead of Sqlalchemy) - https://sqlmodel.tiangolo.com/

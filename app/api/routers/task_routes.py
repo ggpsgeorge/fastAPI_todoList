@@ -16,7 +16,7 @@ def get_db():
     finally:
         db.close()
 
-@router.post("/tasks/", response_model=task_schema.Task)
+@router.post("/tasks/", response_model=task_schema.Task, status_code=201)
 async def create_task(task: task_schema.TaskCreate, db: Session = Depends(get_db)):
     db_task = task_crud.create_task(db, task)
     return db_task    
